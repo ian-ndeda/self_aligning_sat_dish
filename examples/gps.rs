@@ -267,7 +267,6 @@ fn main() -> ! {
                 transmit_uart_data(
                     uart_data.as_mut().unwrap(),
                     serialbuf);
-
             }
         });
 
