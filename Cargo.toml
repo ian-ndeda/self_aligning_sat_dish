@@ -7,6 +7,9 @@ edition = "2021"
 
 [dependencies]
 panic-halt = "0.2.0"
+cortex-m = "0.7.7"
 cortex-m-rt = "0.7.3"
 rp2040-boot2 = "0.3.0"
+rp2040-pac = { version = "0.6.0", features = ["rt"] }
+
 
